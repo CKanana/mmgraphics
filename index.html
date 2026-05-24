@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dodge the Traffic</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <div id="ui-overlay">
+    <div id="score-display">SCORE: <span id="score">0</span></div>
+    <div id="level-display">SPEED LVL: <span id="level">1</span></div>
+  </div>
+
+  <canvas id="gameCanvas"></canvas>
+
+  <div id="start-screen" class="screen">
+    <h1> DODGE THE TRAFFIC</h1>
+    <p>Survive the city rush!</p>
+    <p class="controls-hint">← → Arrow Keys or A / D to move</p>
+    <button id="startBtn">START GAME</button>
+  </div>
+
+  <div id="game-over-screen" class="screen hidden">
+    <h1> CRASH!</h1>
+    <p>Final Score: <span id="final-score">0</span></p>
+    <p id="high-score-display">Best: <span id="high-score">0</span></p>
+    <button id="restartBtn">TRY AGAIN</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
