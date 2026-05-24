@@ -255,10 +255,6 @@ const player = {
     }
   },
 };
-
-// ---------------------------------------------------------------
-// ENEMY CARS ARRAY (multiple objects)
-// ---------------------------------------------------------------
 let enemies = [];
 
 // GEOMETRY: different car body colours and shapes for variety
